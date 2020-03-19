@@ -13,7 +13,7 @@
 5. Se poate accesa aplicatia in browser la adresa: http://localhost:4200/
 
 # Functionalitate
-
+    Note: Momentan nu se pot accesa decat urmatoarele 2 path-uri: "Da-Da-Da-Da-Da" si "Nu-Da-Da-Da"
     Baza de cunostinte este reprezentata de fisierul baza_de_cunostinte.ts si contine intrebari de forma:
         const question_1 = {
             question: "Iti place sa mergi la petreceri?",
