@@ -14,6 +14,14 @@
 
 # Demo
 
+1. Answer a few questions
+
 ![Alt text](/docs-question.PNG?raw=true "Optional Title")
+
+2. Submit your answers
+
 ![Alt text](/docs-submit.PNG?raw=true "Optional Title")
+
+3. Get your results
+
 ![Alt text](/docs-results.PNG?raw=true "Optional Title")
