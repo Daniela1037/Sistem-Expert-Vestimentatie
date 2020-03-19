@@ -2,7 +2,7 @@
     {{question.question}}
     <div class="checkboxes">
         <div class="column">
-            <span>Yes</span>
+            <span>Da</span>
             <label class="checkbox-label">
                 <input class="checkbox" [(ngModel)]="question.answer" (ngModelChange)="checkboxChanged(true)"
                     type="checkbox" id="{{question.question}}1" />
@@ -10,7 +10,7 @@
             </label>
         </div>
         <div class="column">
-            <span>No</span>
+            <span>Nu</span>
             <label class="checkbox-label">
                 <input class="checkbox" [(ngModel)]="!question.answer" (ngModelChange)="checkboxChanged(false)"
                     type="checkbox" id="{{question.question}}2" />
