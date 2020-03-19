@@ -12,6 +12,21 @@
 
 5. Se poate accesa aplicatia in browser la adresa: http://localhost:4200/
 
+# Functionalitate
+
+    Baza de cunostinte este reprezentata de fisierul baza_de_cunostinte.ts si contine intrebari de forma:
+        const question_1 = {
+            question: "Iti place sa mergi la petreceri?",
+            answer: true,
+            next: {
+                true: question_2,
+                false: question_3,
+            },
+        }
+
+    Cand se raspunde da, se trece la intrebarea 2, iar cand se raspunde nu, se trece la intrebarea 3.
+    Daca intrebarea are campul result pe aceasta, inseamna ca este o intrebare finala si se va returna rezultatul pe baza selectiilor.
+
 # Demo
 
 1. Raspundeti la cateva intrebari
