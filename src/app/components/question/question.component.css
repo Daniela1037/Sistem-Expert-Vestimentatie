@@ -1,0 +1,39 @@
+.question {
+    /* width: fit-content; */
+    width: 800px;
+    text-align: center;
+    margin: 10px auto 10px auto;
+    padding: 10px;
+    background-color: #be394f;
+    color: white;
+    border-radius: 8px;
+}
+.checkboxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5px 0 5px 0;
+}
+.checkbox {
+    opacity: 0;
+}
+.checkbox-label{
+    position: relative;
+}
+.checkbox-label .custom-checkbox {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 10px;
+    width: 10px;
+    padding: 4px;
+    background-color: transparent;
+    cursor: default;
+    border: 2px solid white;
+    border-radius: 50%;
+    color: white;
+}
+input:checked + label {
+    background: white content-box !important;
+}

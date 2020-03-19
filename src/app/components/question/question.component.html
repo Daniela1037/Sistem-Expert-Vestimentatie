@@ -1,0 +1,13 @@
+<div class="question">
+    {{question.question}}
+    <div class="checkboxes">
+        <label class="checkbox-label">
+            <input class="checkbox" [(ngModel)]="question.answer" (ngModelChange)="checkboxChanged(true)" type="checkbox" id="{{question.question}}1"/>
+            <label for="{{question.question}}1" class="custom-checkbox"></label>
+        </label>
+        <label class="checkbox-label">
+            <input class="checkbox" [(ngModel)]="!question.answer" (ngModelChange)="checkboxChanged(false)" type="checkbox" id="{{question.question}}2"/>
+            <label for="{{question.question}}2" class="custom-checkbox"></label>
+        </label>
+    </div>
+</div>
