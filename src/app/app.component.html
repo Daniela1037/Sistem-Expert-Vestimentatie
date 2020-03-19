@@ -2,5 +2,5 @@
   <app-question [question]="activeQuestion"></app-question>
   <button *ngIf="activeQuestion.next.true !== null || activeQuestion.next.false !== null" class="custom-button" (click)="nextQuestion()">Next</button>
   <button *ngIf="activeQuestion.next.true === null && activeQuestion.next.false === null" class="custom-button" (click)="submitQuestions()">Submit</button>
-  <app-results *ngIf="renderResults" questions=[questions]></app-results>
+  <app-results *ngIf="renderResults" [question]=activeQuestion></app-results>
 </div>

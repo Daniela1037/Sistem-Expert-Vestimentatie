@@ -1,3 +1,7 @@
 .resultImg {
     margin-top: 10px;
 }
+.resultText{
+    color: #4f3961;
+    font-weight: bolder;
+}
