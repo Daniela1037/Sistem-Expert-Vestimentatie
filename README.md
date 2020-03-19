@@ -14,6 +14,6 @@
 
 # Demo
 
-![Alt text](/docs-question.png?raw=true "Optional Title")
-![Alt text](/docs-submit.png?raw=true "Optional Title")
-![Alt text](/docs-results.png?raw=true "Optional Title")
+![Alt text](/docs-question.PNG?raw=true "Optional Title")
+![Alt text](/docs-submit.PNG?raw=true "Optional Title")
+![Alt text](/docs-results.PNG?raw=true "Optional Title")
