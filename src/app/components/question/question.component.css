@@ -14,6 +14,11 @@
     justify-content: space-around;
     margin: 5px 0 5px 0;
 }
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .checkbox {
     opacity: 0;
 }

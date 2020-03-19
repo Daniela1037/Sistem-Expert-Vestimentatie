@@ -11,3 +11,9 @@
 4. Se ruleaza comanda: ng serve
 
 5. Se poate accesa aplicatia in browser la adresa: http://localhost:4200/
+
+# Demo
+
+![Alt text](/docs-question.png?raw=true "Optional Title")
+![Alt text](/docs-submit.png?raw=true "Optional Title")
+![Alt text](/docs-results.png?raw=true "Optional Title")
