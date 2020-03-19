@@ -14,14 +14,14 @@
 
 # Demo
 
-1. Answer a few questions
+1. Raspundeti la cateva intrebari
 
 ![Alt text](/docs-question.PNG?raw=true "Optional Title")
 
-2. Submit your answers
+2. Butonul de Next e inlocuit cu cel de Submit cand se ajunge la ultima intrebare
 
 ![Alt text](/docs-submit.PNG?raw=true "Optional Title")
 
-3. Get your results
+3. In functie de raspunsuri, se afiseaza poza cu vestimentatia potrivita personalitatii
 
 ![Alt text](/docs-results.PNG?raw=true "Optional Title")
