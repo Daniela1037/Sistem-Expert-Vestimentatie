@@ -6,14 +6,14 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./results.component.css']
 })
 export class ResultsComponent implements OnInit {
-  @Input() question;
+  @Input() result;
   resultImgUrl: string = '';
 
   constructor() { }
 
   ngOnInit(): void {
-    console.log(this.question)
-    this.resultImgUrl = `../../../assets/images/${this.question.result}.jpg`;
+    console.log(this.result)
+    this.resultImgUrl = `../../../assets/images/${this.result}.jpg`;
   }
 
 }
