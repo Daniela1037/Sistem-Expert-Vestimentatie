@@ -1,5 +1,8 @@
 .resultImg {
     margin-top: 10px;
+    object-fit: contain;
+    width: 600px;
+    height: 600px;
 }
 .resultText{
     color: #4f3961;

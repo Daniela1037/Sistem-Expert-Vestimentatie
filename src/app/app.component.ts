@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { data } from './baza_de_cunostinte';
+import { data, rules } from './baza_de_cunostinte';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -9,19 +9,39 @@ export class AppComponent {
   renderResults: boolean = false;
   questions = data;
   activeQuestion: any = this.questions[0];
+  answeredQuestions = {}
+  ruleStack = rules
+  result = ''
 
   constructor() {
+
   }
 
-  printQuestions(): string {
-    return JSON.stringify(this.questions, null, 2);
+  popRule(index) {
+    this.ruleStack.splice(index, 1)
   }
 
-  submitQuestions(): void {
-    this.renderResults = true;
+  applyRule() {
+    let nextQuestion;
+    let index = 0;
+    while(!nextQuestion) {
+      nextQuestion = this.ruleStack[index].call(this.answeredQuestions);
+      index++;
+    }
+    this.popRule(index - 1);
+    return nextQuestion
   }
 
   nextQuestion(): void {
-    this.activeQuestion = this.activeQuestion.next[this.activeQuestion.answer];
+    this.answeredQuestions[`question${this.activeQuestion.id}`] = this.activeQuestion.answer;
+
+    const nextQuestion = this.applyRule();
+
+    if(typeof(nextQuestion) === 'string') {
+      this.renderResults = true;
+      this.result = nextQuestion;
+    } else {
+      this.activeQuestion = nextQuestion
+    }
   }
 }
