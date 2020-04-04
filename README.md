@@ -18,4 +18,4 @@
 
 # Demo
 
-![Alt Text](http://g.recordit.co/5nGpEtvxTD.gif)
+![Alt Text](/demo.gif?raw=true)
