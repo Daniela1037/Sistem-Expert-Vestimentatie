@@ -12,3 +12,6 @@
 
 5. Se poate accesa aplicatia in browser la adresa: http://localhost:4200/
 
+# Baza de cunostinte - src/app/baza_de_cunostinte.ts
+
+# Masina de inferenta - src/app/app.component.ts
