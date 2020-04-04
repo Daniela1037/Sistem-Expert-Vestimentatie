@@ -15,3 +15,7 @@
 # Baza de cunostinte - src/app/baza_de_cunostinte.ts
 
 # Masina de inferenta - src/app/app.component.ts
+
+# Demo
+
+![Alt Text](http://g.recordit.co/5nGpEtvxTD.gif)
